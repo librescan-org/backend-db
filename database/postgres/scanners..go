@@ -5,6 +5,7 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/core/types"
+	storage "github.com/librescan-org/backend-db"
 )
 
 type ScannerWithErrHandling interface {

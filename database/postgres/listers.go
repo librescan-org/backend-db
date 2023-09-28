@@ -7,6 +7,7 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/ethereum/go-ethereum/common"
+	storage "github.com/librescan-org/backend-db"
 )
 
 func (repo *PostgresRepository) ListBlocks(pagination storage.OffsetPagination) (blocks []*storage.Block, totalRecordsFound uint64, err error) {

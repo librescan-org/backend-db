@@ -4,6 +4,7 @@ import (
 	"log"
 	"time"
 
+	storage "github.com/librescan-org/backend-db"
 	"github.com/librescan-org/backend-db/database/postgres"
 )
 
